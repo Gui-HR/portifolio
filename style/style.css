@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-base-color: black;
+    --text-secondary-color: #a0a1a3;
+}
+
+body {
+    padding: 0px 15%;
+}
+
+nav {
+    border-bottom: 2px solid var(--text-secondary-color);
+    padding-top: 20px;
+}
+
+.list-link {
+    display: flex;
+    gap: 120px;
+    justify-content: end;
+    padding: 0px 15px;
+}
+
+.list-item-link {
+    list-style-type: none;
+    height: 30px;
+}
+
+.link {
+    color: var(--text-base-color);
+    text-decoration: none;
+
+    transition: 250ms;
+}
+
+.link:hover {
+    color: var(--text-secondary-color)
+
+}
+
