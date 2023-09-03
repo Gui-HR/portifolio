@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+:root {
+    --text-base-color: #000000;
+    --text-secondary-color: #ffffff;
+    --icon-color: #989a9c;
+    --background-contrast-color: #343a40;
+    --background: #202124;
+    --font-contrast:'Roboto Slab', serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-:root {
-    --text-base-color: black;
-    --text-secondary-color: #a0a1a3;
+    font-family: var(--font-contrast);
 }
 
 body {
@@ -14,7 +21,7 @@ body {
 }
 
 nav {
-    border-bottom: 2px solid var(--text-secondary-color);
+    border-bottom: 2px solid var(--icon-color);
     padding-top: 20px;
 }
 
@@ -38,7 +45,38 @@ nav {
 }
 
 .link:hover {
-    color: var(--text-secondary-color)
+    color: var(--icon-color)
 
+}
+
+.about-me-container {
+    background-color: var(--background);
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 25px;
+    color: var(--text-secondary-color);
+}
+
+.about-me-text-container {
+    padding: 10px;
+    border-left: 3px solid var(--background-contrast-color);
+}
+
+.about-me-title-container {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-me-description {
+    max-width: 390px;
+}
+
+.about-me-img {
+    width: 250px;
+    border-radius: 10px;
+    border: 3px solid var(--background-contrast-color);
 }
 
