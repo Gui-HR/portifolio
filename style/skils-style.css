@@ -1,0 +1,42 @@
+@import url(variaveis-style.css);
+
+/* .skills-container {
+    background-color: var(--background);
+    color: var(--text-secondary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin-top: 50px;
+    border-radius: 10px;
+} */
+
+/* .hard-skills-container, .soft-skills-container {
+    padding: 10px;
+    border-left: 3px solid var(--background-contrast-color);
+} */
+
+.skills-container {
+    display: flex;
+    gap: 50px;
+}
+
+.hard-skills-container, .soft-skills-container {
+    background-color: var(--background);
+    color: var(--text-secondary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.hard-skills, .soft-skills {
+    padding: 10px;
+    border-left: 3px solid var(--background-contrast-color);
+}
+
+.skills-list {
+    list-style-position: inside;
+    columns: 2;
+}
