@@ -1,0 +1,36 @@
+@import url(variaveis-style.css);
+
+nav {
+    border-bottom: 2px solid var(--icon-color);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-link {
+    display: flex;
+    gap: 120px;
+    justify-content: end;
+    padding: 0px 15px;
+}
+
+.list-item-link {
+    list-style-type: none;
+    height: 30px;
+}
+
+.link {
+    color: var(--text-base-color);
+    text-decoration: none;
+
+    transition: 250ms;
+}
+
+.link:hover {
+    color: var(--icon-color)
+}
+
+.nav-title {
+    margin: 0px 35px;
+    font-size: 1.8em;
+}
