@@ -1,0 +1,59 @@
+@import url(variaveis-style.css);
+
+.projects-container {
+    background-color: var(--background);
+    margin: 30px 0px;
+    border-radius: 10px;
+    padding: 25px;
+    color: var(--text-secondary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project-calculator{
+    display: flex;
+    gap: 20px;
+}
+
+.project-text-content {
+    padding: 10px;
+    border-left: 3px solid var(--background-contrast-color);
+}
+
+.project-title {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.project-center-image {
+    border-radius: 10px;
+}
+
+.minor-projects-container{
+    display: flex;
+    gap: 20px;
+}
+
+.project-minor-title {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+.project-bookmark, .project-sky-ski {
+    display: flex;
+    gap: 10px;
+}
+
+.project-bookmark {
+    width: 52%;
+}
+
+.project-sky-ski {
+    width: 48%;
+}
+
+.project-minor-image {
+    border-radius: 10px;
+    width: 100%;
+}
